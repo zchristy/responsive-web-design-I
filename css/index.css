@@ -394,6 +394,7 @@ footer p {
     border-bottom: 1px solid black;
     text-align: center;
     padding: 20px 0;
+    font-size: 20px;
 	}
 
 	.nav-container a.logo-link {
@@ -401,14 +402,77 @@ footer p {
     border-bottom: 1px solid black;
     text-align: center;
     margin: 0;
-    padding-bottom: 20px;
+    padding-bottom: 18px;
 	}
+
+  .banner-container {
+    margin-top: 31px;
+  }
+
+  .h1-button-container button {
+    margin: 10px 0 0 0;
+  }
 }
 
 @media (max-width: 500px) {
   .container {
-    padding: 40px 0;
+    padding: 20px 0;
   }
+
+  main .first-section-container section {
+    font-size: 17px;
+  }
+
+  main .first-section-container section div {
+    width: 92%;
+  }
+
+  main .first-section-container section h2 {
+    font-size: 16px;
+  }
+
+  main .first-section-container section div.about {
+    margin-top: 40px;
+  }
+
+  main img {
+    width: 92%;
+    height: auto;
+    margin-left: 20px;
+  }
+
+  main .second-section-container section {
+    font-size: 17px;
+    padding: 26px 10px 30px 10px;
+  }
+
+  main .second-section-container section div {
+    width: 92%;
+    margin: 0 10px 10px 10px;
+  }
+
+  main .second-section-container section h2 {
+    font-size: 16px;
+  }
+
+  main .second-section-container section div.product {
+    margin-top: 58px;
+  }
+
+  main .second-section-container section div.vision {
+    margin-top: 59px;
+  }
+
+  footer {
+    margin-top: 24px;
+    padding: 10px 0 0 20px;
+
+  }
+
+  footer h2 {
+    font-size: 17px;
+  }
+
 }
 
 /* Service Page Style */
