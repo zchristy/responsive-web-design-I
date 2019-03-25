@@ -224,6 +224,14 @@ footer p {
 /* home page Media Queries */
 
 @media screen and (max-width: 900px) {
+  .container {
+    padding: 25px 20px;
+  }
+
+  header {
+    margin-bottom: 74px;
+  }
+
 	.banner-container {
 		display: flex;
 		flex-direction: column;
@@ -233,13 +241,14 @@ footer p {
 	}
 
 	.h1-button-container h1 {
-		font-size: 80px;
+		font-size: 72px;
 	}
 
 	.h1-button-container button {
-    width: 200px;
-    margin: 50px 0 0 0;
-    font-size: 20px;
+    width: 171px;
+  height: 33px;
+  margin: 11px 0 0 0;
+  font-size: 18px
 	}
 
 	.banner-container img {
@@ -257,16 +266,24 @@ footer p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    width: 95%;
     margin: 0;
 	}
+
+  header nav a {
+    font-size: 18px;
+  }
 
 	.logo-link {
 		order: -1;
     margin: 0;
-    margin-bottom: 50px;
+    margin: 5px 0 38px 0;
     align-self: center;
 	}
+
+  .logo {
+    width: 185px;
+  }
 
   .h1-button-container {
     display: flex;
@@ -274,7 +291,42 @@ footer p {
     text-align: center;
     align-items: center;
     margin: 0;
-    padding-top: 50px;
+    padding-top: 19px;
+  }
+
+  main .first-section-container section {
+    font-size: 17px;
+    padding: 34px 0;
+  }
+
+  main .first-section-container section h2 {
+      font-size: 20px;
+  }
+
+  main .second-section-container section {
+    font-size: 17px;
+    padding: 27px 0 42px 0;
+  }
+
+  main .second-section-container section h2 {
+      font-size: 20px;
+  }
+
+  footer {
+    margin-top: 30px;
+  }
+
+  footer h2 {
+    font-size: 20px;
+  }
+
+  footer address {
+    font-size: 16px;
+  }
+
+  footer p {
+    margin-top: 40px;
+    font-size: 16px;
   }
 
 }
